@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Backgruond Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Background gradient generater</h1>
+    <form action="">
+        <input oninput="updateGradient()" type="color" name="" id="color1" value="#203AD2">
+        <input oninput="updateGradient()" type="color" name="" id="color2" value="#288278">
+    </form>
+    
+    <button onclick="generateRandomGradient()" id="button">Generate Random Gradients</button>
+    <h2>Current css background</h2>
+    <h3> linear-gradient(to right, <span id="color1Value"></span> , <span id="color2Value"></span>); </h3>
+    <script src="bundle.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "background-generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bundle.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:shra-one/background-generator.git"
+  },
+  "author": "shrawan shrestha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shra-one/background-generator/issues"
+  },
+  "homepage": "https://github.com/shra-one/background-generator#readme"
+}
